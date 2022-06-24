@@ -7,6 +7,7 @@
   <title>웃는남자</title>
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
 </head>
@@ -34,7 +35,12 @@
           <img src="img/about_musical.png" alt="about_musical">
         </div>
         <div class="about_main_visual">
-          <img src="img/about_main.png" alt="about_main">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/about_main.png" alt="img1"></div>
+            <div class="swiper-slide"><img src="img/about2.png" alt="img2"></div>
+            <div class="swiper-slide"><img src="img/about4.png" alt="img4"></div>
+          </div>
+        </div>
         </div>
         <div class="about_font">
           <p>세종문화회관 대극장에서</p>
@@ -64,5 +70,16 @@
 
 <script src="js/jquery-3.6.0.min.js"></script>  
 <script src="js/index.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+$(function(){
+  let swiper = new Swiper ('.about_main_visual',{
+    loop: true,
+    grabCursor: true,
+    autoplay: 3000,
+    effect: 'slide'
+  });
+});
+</script>
 </body>
 </html>

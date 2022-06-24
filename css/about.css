@@ -14,13 +14,20 @@
 }
 
 .about_main_visual{
-  margin:30px 0 30px 0;
+  overflow: hidden;
+  position:relative;
+  width:100%;
+  margin:30px auto 30px auto;
+}
+.swiper-wrapper .swiper-slide img{  /*가변이미지*/
+	width:100%; 
+	max-width:100%;
 }
 
 .about_font p{
   color:#8A8369;
-  font-size:45px;
-  font-size:2.813rem;
+  font-size:35px;
+  font-size:2.188rem;
   /* font-family: 'Song Myung', serif; !일단보류! */
 }
 
@@ -30,7 +37,7 @@
 
 .about_font span{
   color:#A9A0A0;
-  font-size:25px;
-  font-size:1.563rem;
+  font-size:16px;
+  font-size:1rem;
   margin-bottom:10px;
 }
