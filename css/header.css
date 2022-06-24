@@ -79,15 +79,18 @@ body{
 .main_logo{
 	z-index:10;
 	display:none;
-	transform: scale(0.9);
+	transform: scale(0.6);
 }
 
 .main_visual{
+	position:absolute;
+	top:33%;
 	transform: scale(1.2);
 }
 
 .font_logo{
-	margin-top:60px;
+	position:absolute;
+	bottom:0;
 	transform: scale(1.5);
 	z-index: 10;
 	display:none;
