@@ -64,7 +64,7 @@ body{
 	position:fixed;
 	left:0; 
 	top:0; 
-	z-index:1500;  /*헤더보다는 높아야하고, 메뉴보다다 낮아야 함*/
+	z-index:1500;  /*헤더보다는 높아야하고, 메뉴보다다 낮게*/
 }
 /* ______________________________________________________________________ */
 
@@ -79,19 +79,25 @@ body{
 .main_logo{
 	z-index:10;
 	display:none;
-	transform: scale(0.6);
+	transform: scale(0.5);
 }
 
 .main_visual{
 	position:absolute;
-	top:33%;
+	top: 25%;
 	transform: scale(1.2);
+}
+.main_visual img{
+	width:100%;
 }
 
 .font_logo{
 	position:absolute;
-	bottom:0;
-	transform: scale(1.5);
+	bottom:3%;
+	/* transform: scale(); */
 	z-index: 10;
 	display:none;
+}
+.font_logo img{
+	width:100%;
 }

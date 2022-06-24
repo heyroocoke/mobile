@@ -1,2 +1,70 @@
 @import url(about.css);
 @import url(common.css);
+
+
+
+.casting_head img{
+  width:100%; max-width: 100%;
+}
+.actor_main_visual{
+  margin-top:20px;
+  width:100%; max-width: 100%;
+}
+
+.actor_list{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%; max-width: 100%;
+}
+
+.t1 {
+  display:flex;
+  justify-content: space-between;
+  width:100%; max-width: 100%;
+  height:30px;
+}
+.actor_list{
+  width:100%;
+}
+.actor_list p{
+  color:#bb3d47;
+  font-family: 'Song Myung', serif;
+  font-size:18px;
+  font-size:1.125rem;
+}
+
+.t11{
+  width:50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-right:1px solid #030102;
+  background:rgba(255, 255, 255, 0.5);
+}
+.t12{
+  width:33%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-right:1px solid #030102;
+  background:rgba(255, 255, 255, 0.5);
+}
+.b1{
+  border-top:1px solid #030102;
+}
+.b2{
+  border-top:1px solid #030102;
+  border-bottom:1px solid #030102;
+}
+.b3{
+  border-bottom:1px solid #030102;
+}
+
+.t11:hover, .t12:hover{
+  background: #bb3d47;
+  cursor: pointer;
+}
+.t11:hover p, .t12:hover p{
+  color:aliceblue;
+}
