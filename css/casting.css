@@ -1,6 +1,10 @@
 @import url(about.css);
 @import url(common.css);
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 
 .casting_head img{
@@ -9,6 +13,9 @@
 .actor_main_visual{
   margin-top:20px;
   width:100%; max-width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .actor_list{
@@ -67,4 +74,28 @@
 }
 .t11:hover p, .t12:hover p{
   color:aliceblue;
+}
+.actor_lineup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.actor_lineup div p{
+  padding:20px;
+  color:goldenrod;
+  text-align: center;
+}
+.a1>img{
+  border-radius: 50%;
+}
+
+.up_btn>a>span{
+  display:none;
+  color:#bb3d47;
+  position: fixed;
+  bottom:2%; right:2%;
+  font-weight: 500;
+  font-size: 50px;
+  font-size:3.125rem;
+
 }
