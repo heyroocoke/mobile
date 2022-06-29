@@ -49,9 +49,9 @@ body{
 	cursor:pointer;
 }
 
-.gnb .gnb_list li:nth-child(2n){
+/* .gnb .gnb_list li:nth-child(2n){
 	background: rgba(252,19,26,0.8);
-}
+} */
 
 /*뒤배경 어둡게*/
 .back{
