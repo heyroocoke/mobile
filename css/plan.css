@@ -102,13 +102,13 @@
   justify-content: center;
   width: calc(100% / 7);
   text-align: left;
-  color: #999;
+  color: #fff;
   font-size: 12px;
   text-align: center;
   border-radius:5px
 }
 
-.current.today {background: rgb(242 242 242);}
+.current.today {background: rgb(78, 76, 76);}
 
 .sec_cal .cal_wrap .dates {
   display: flex;
@@ -125,5 +125,7 @@
 }
 
 .sec_cal .cal_wrap .day.disable {
-  color: #ddd;
+  color: #999;
 }
+
+

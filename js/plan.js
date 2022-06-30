@@ -89,4 +89,5 @@ function calendarInit() {
       thisMonth = new Date(currentYear, currentMonth + 1, 1);
       renderCalender(thisMonth); 
   });
+
 }
