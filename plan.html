@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
   <title>웃는남자</title>
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/plan.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
 </head>
@@ -29,19 +29,33 @@
     </header> <!-- header end -->
 
     <section> <!-- section start -->
-      <div id="swrap">
-        <div class="main_logo">
-          <img src="img/main_logo_removebg.png" alt="main_logo">
-        </div>
-        <div class="main_visual">
-          <img src="img/mainVisual.png" alt="main_visual">
-        </div>
-        <div class="font_logo">
-          <img src="img/font_logo.png" alt="font_logo">
+      <div id="main" class="p_head">
+        <p>Plan</p>
+      </div>
+      <div class="p_cal"> <!-- 달력 -->
+        <div class="sec_cal">
+          <div class="cal_nav">
+            <a href="javascript:;" class="nav-btn go-prev">prev</a>
+            <div class="year-month"></div>
+            <a href="javascript:;" class="nav-btn go-next">next</a>
+          </div>
+          <div class="cal_wrap">
+            <div class="days">
+              <div class="day">MON</div>
+              <div class="day">TUE</div>
+              <div class="day">WED</div>
+              <div class="day">THU</div>
+              <div class="day">FRI</div>
+              <div class="day">SAT</div>
+              <div class="day">SUN</div>
+            </div>
+            <div class="dates"></div>
+          </div>
         </div>
       </div>
+
     </section> <!-- section end -->
-  </div>
+
 
 
 
@@ -56,5 +70,6 @@
 
 <script src="js/jquery-3.6.0.min.js"></script>  
 <script src="js/index.js"></script>
+<script src="js/plan.js"></script>
 </body>
 </html>
